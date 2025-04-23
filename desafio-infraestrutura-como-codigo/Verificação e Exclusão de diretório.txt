@@ -1,0 +1,11 @@
+Verificação e Exclusão de diretórios sem pedido de validação
+ls -l
+rm -Rf /diretório/
+
+Verificação e Exclusão de usuários e seus diretórios
+cat etc/passwd
+userdel -r usuário
+
+Verificação e Exclusão de grupos
+cat etc/group
+groupdel grupo
